@@ -1,0 +1,463 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/******************************************NAVBAR***************************************/
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  z-index: 100000;
+}
+.nav-link {
+  color: white !important;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+.signup {
+  padding-left: 1.5rem !important;
+  padding-right: 1.5rem !important;
+}
+/******************************************CAROSEL***************************************/
+.my-carosel {
+  width: 100%;
+  height: 90%;
+  position: relative;
+  top: -70px;
+}
+
+.d-block {
+  max-height: 800px !important;
+}
+/******************************************PROPERTY-SECTION***************************************/
+.property-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  align-items: center;
+}
+.prop-heading {
+  font-size: 35px;
+  color: #1a295b;
+}
+.card-bottom {
+  margin: 10px;
+}
+.card-img {
+  margin: -10px;
+  margin-top: 10px !important;
+}
+.card-img-iifl {
+  margin-top: 70px !important;
+  margin-left: 20px !important;
+  width: '100.11px';
+  height: '30px';
+}
+
+.funded {
+  margin-left: 150px;
+  width: 60 !important;
+  height: 60 !important;
+}
+
+.col-2 {
+  margin-left: 190px !important;
+  margin-top: 10px !important;
+}
+/******************************************PROPERTY-SECTION***************************************/
+.who-we-are,
+.our-trusted-partners,
+.why-hbits,
+.blog,
+.media,
+.our-tenants {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  margin-bottom: 80px !important;
+}
+.bottom {
+  position: absolute;
+  color: white;
+  bottom: 30%;
+  left: 10%;
+}
+.know-more {
+  background-color: #ffb657 !important;
+  border-radius: 5px !important;
+  color: #1a295b !important;
+  padding: 12px 34px !important;
+  text-transform: uppercase !important;
+  font-family: Roboto !important;
+  font-size: 0.889rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  margin: 30px 0 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 48px !important;
+  max-width: 180px !important;
+  text-decoration: none;
+}
+.CircularProgressbar {
+  fill: red;
+}
+
+.vedio {
+  background-color: #1a295b;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.why-us {
+  font-style: 18px;
+}
+.vedio-desc {
+  margin-left: 37px;
+  font-family: Roboto !important;
+  font-weight: 400 !important;
+  font-size: 1.667rem !important;
+  font-style: 30px;
+  color: '#fff';
+}
+.player-wrapper {
+  width: 320px !important;
+  height: 215px !important;
+}
+
+.button-know-more {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.legal-title {
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin: 20px;
+  font-family: Roboto !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+  padding: 5px 0;
+}
+.our-partner {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  width: 100% !important;
+  margin-left: 40px !important;
+}
+
+.property-main {
+  margin-top: -120px;
+  margin-left: 20px;
+}
+
+.property-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px !important;
+}
+
+.property-button {
+  /* margin-left: 600px !important; */
+
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+}
+/******************************************WHO-WE-ARE-SECTION***************************************/
+
+.who-we-are {
+  margin-top: 30px !important;
+}
+.col-md-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.info-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.111rem;
+  gap: 1.111rem;
+}
+
+.card {
+  padding: 2px;
+  border-radius: 10px !important;
+  border: 1px !important;
+  width: 145px;
+  height: 210px;
+
+  background: linear-gradient(
+    180deg,
+    #ffb558 2%,
+    #ffb657 3%,
+    #435cb3 64%,
+    #003bd4 98%
+  );
+}
+
+.info-card {
+  height: 100%;
+  max-height: 15.6rem;
+  padding: 3rem 1.2rem;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card-image {
+  position: relative;
+  width: 60px !important;
+  height: 60px !important;
+  margin: 10px !important;
+  margin-top: -20px !important;
+}
+
+.card-title {
+  font-family: Roboto !important;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #1a295b !important;
+
+  margin-bottom: 5px !important;
+  box-sizing: border-box;
+
+  display: block;
+}
+
+.card-text {
+  color: #1a295b;
+  font-family: Roboto !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+}
+
+.text {
+  font-style: 26px;
+}
+/* *******************Testimonial*********************** */
+
+.Customers-image {
+  object-fit: contain;
+  width: 44px !important;
+  height: 44px !important;
+  margin-left: 30px;
+  margin-top: -10px !important;
+}
+
+.Customer-Data {
+  display: flex !important;
+  flex-direction: row !important;
+  margin-right: 300px !important;
+}
+
+.text-main {
+  margin-left: -118px !important;
+}
+.Customer-Name {
+  margin-left: -10px;
+  font-family: Roboto !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.Customer-Designation {
+  width: 239px;
+  height: 24px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: row;
+}
+
+/*******************************WorkCycle************************************* */
+
+.work-cycle {
+  position: relative;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+
+  margin: 45px;
+}
+
+.work-cycle-wrapper {
+  width: 85%;
+  display: flex !important;
+  flex-direction: row !important;
+
+  border-radius: 10px;
+  opacity: 1;
+  top: 4521px;
+  left: 1395px;
+
+  border-radius: 10px;
+  opacity: 1;
+}
+
+.work-life {
+  width: 80px;
+  background-color: #f9f9f9 !important;
+  margin: 20px;
+}
+
+.work-title {
+  text-align: center;
+}
+/******************************************FLIP-SECTION***************************************/
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 320px;
+  perspective: 1000px;
+  margin: 10px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  color: white;
+  background: #3d56aa 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+}
+
+.flip-card-back {
+  background: transparent linear-gradient(322deg, #ffb657 0%, #fbdfbf 100%) 0%
+    0% no-repeat padding-box;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+.card-titles {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 700;
+  margin-top: 0.5rem !important;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: white;
+}
+
+.card-title-back {
+  color: #1a295b;
+  font-size: 20px;
+}
+
+.card-images {
+  width: 20%;
+  height: 20%;
+  font-size: 20px;
+  font: normal normal medium 20px/24px Roboto;
+  margin-top: 30%;
+}
+.why-hbits {
+  margin: 50px;
+}
+.why-hbits-main {
+  margin-bottom: 5%;
+  border-radius: 10px;
+  background: transparent -webkit-linear-gradient(
+      top,
+      #1b2b5e,
+      #5574df 50%,
+      #1b2b5e
+    ) 0 0 no-repeat padding-box;
+  color: white;
+}
+
+.text,
+.blog {
+  color: #1a295b;
+  font-weight: bold;
+}
+.v1 {
+  border-left: 1px solid white;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: -40px;
+}
+.work-text {
+  color: white;
+  margin-left: '10px';
+}
+.property {
+  position: relative;
+  top: -230px;
+  margin-bottom: -165px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #f3f3f3;
+  background-clip: border-box;
+  border-radius: 5px;
+}
+
+.media {
+  padding: '10px' !important;
+}
+
+.col-md-12 {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+/* *************************************OUR-TENANTS-SECTION*********************************** */
+
+.my-carosel-image {
+  width: 20% !important;
+  margin-top: 80px !important;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: center;
+}
+.row-blog-main-content {
+  display: flex !important;
+  flex-direction: row !important;
+  background-color: #f9f9f9 !important;
+  justify-content: center;
+}
